@@ -1,0 +1,12 @@
+prefix=C:/Program Files (x86)/fuzzy
+exec_prefix=C:/Program Files (x86)/fuzzy
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: fuzzy
+Description: 
+Version: 0.1
+
+Requires:
+Libs: -L${libdir} -lfuzzy
+Cflags: -I${includedir}
